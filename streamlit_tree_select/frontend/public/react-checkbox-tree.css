@@ -301,3 +301,9 @@
   font-size: 14px;
   content: "\f053";
 }
+
+.react-checkbox-tree .rct-icon-check::before,
+.react-checkbox-tree .rct-icon-uncheck::before,
+.react-checkbox-tree .rct-icon-half-check::before {
+  display: none;
+}
